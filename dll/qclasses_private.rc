@@ -1,0 +1,47 @@
+/*
+qclasses_private.rc
+-------------------
+Begin: 2011/10/28
+Last revision: $Date: 2011-10-29 00:32:27 $ $Author: areeves $
+Version: $Revision: 1.5 $
+Project: QClasses for Delphi
+Website: http://www.aaronreeves.com/qclasses
+Author: Aaron Reeves <aaron@aaronreeves.com>
+------------------------------------------------------
+Copyright (C) 2011 Aaron Reeves
+
+This program is free software; you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free Software 
+Foundation; either version 2 of the License, or (at your option) any later 
+version.
+*/
+
+#include <windows.h> // include for version info constants
+
+
+1 VERSIONINFO
+FILEVERSION 0,2,0,0
+PRODUCTVERSION 0,2,0,0
+FILETYPE VFT_DLL
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "040904E4"
+		 {
+			 VALUE "CompanyName", ""
+			 VALUE "FileVersion", "0.2.0"
+			 VALUE "FileDescription", "QClasses for Delphi"
+			 VALUE "InternalName", ""
+			 VALUE "LegalCopyright", "2006 - 2011 Aaron Reeves"
+			 VALUE "LegalTrademarks", ""
+			 VALUE "OriginalFilename", "qclasses.dll"
+			 VALUE "ProductName", "QClasses for Delphi"
+			 VALUE "ProductVersion", "0.2.0"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x0409, 1252
+	 }
+}
+
